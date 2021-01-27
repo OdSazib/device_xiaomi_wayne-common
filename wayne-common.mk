@@ -44,6 +44,11 @@ PRODUCT_PACKAGES += \
 # Device identifier
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
+# Display
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/configs/display/qdcm_calib_data_jdi_nt36672_fhd_video_mode_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_jdi_nt36672_fhd_video_mode_dsi_panel.xml \
+    $(DEVICE_PATH)/configs/display/qdcm_calib_data_tianma_nt36672_fhd_video_mode_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_tianma_nt36672_fhd_video_mode_dsi_panel.xml
+
 # EAS POWERHINT VARIANT
 EAS_POWERHINT_VARIANT := sdm660
 
