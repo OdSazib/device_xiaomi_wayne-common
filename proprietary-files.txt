@@ -457,10 +457,6 @@ vendor/lib/libmmcamera_wayne_imx486_ofilm_ii.so
 vendor/lib/libmmcamera_wayne_imx486_sunny_i.so
 vendor/lib/libmmcamera_wayne_imx486_sunny_iii.so
 
-# Display calibration
-vendor/etc/qdcm_calib_data_tianma_nt36672_fhd_video_mode_dsi_panel.xml
-vendor/etc/qdcm_calib_data_jdi_nt36672_fhd_video_mode_dsi_panel.xml
-
 # Fingerprint firmware
 etc/firmware/goodixfp.b00:vendor/firmware/goodixfp.b00
 etc/firmware/goodixfp.b01:vendor/firmware/goodixfp.b01
