@@ -38,7 +38,7 @@ TARGET_TAP_TO_WAKE_NODE := "/sys/touchpanel/double_tap"
 TARGET_SCREEN_DENSITY := 420
 
 # HIDL
-DEVICE_MANIFEST_FILE += $(WAYNE_PATH)/manifest.xml
+DEVICE_MANIFEST_FILE += $(WAYNE_PATH)/configs/vintf/manifest.xml
 
 # Kernel
 TARGET_KERNEL_CONFIG := wayne_defconfig
