@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-#define LOG_TAG "ConsumerIrService"
+#define LOG_TAG "ConsumerIrService.xiaomi_sdm660"
 
 #include <android-base/logging.h>
 
