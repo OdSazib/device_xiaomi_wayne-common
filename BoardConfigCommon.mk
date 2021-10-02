@@ -31,5 +31,8 @@ VENDOR_SECURITY_PATCH := 2020-08-05
 # WLAN MAC
 WLAN_MAC_SYMLINK := true
 
+# Properties
+TARGET_VENDOR_PROP += $(WAYNE_PATH)/vendor.prop
+
 # Inherit the proprietary files
 include vendor/xiaomi/wayne-common/BoardConfigVendor.mk

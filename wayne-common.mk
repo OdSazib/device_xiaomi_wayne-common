@@ -11,6 +11,8 @@ DEVICE_PATH := device/xiaomi/wayne-common
 # APEX
 ENABLE_APEX := false
 
+# Build Fingerprint
+BUILD_FINGERPRINT := "xiaomi/wayne/wayne:8.1.0/OPM1.171019.011/V9.5.11.0.ODCCNFA:user/release-keys"
 
 # Audio
 PRODUCT_COPY_FILES += \
@@ -38,9 +40,6 @@ PRODUCT_PACKAGES += \
 
 # Inherit from sdm660-common
 $(call inherit-product, device/xiaomi/sdm660-common/sdm660.mk)
-
-# Inherit properties
-$(call inherit-product, $(DEVICE_PATH)/properties.mk)
 
 # Init
 PRODUCT_PACKAGES += \
