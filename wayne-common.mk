@@ -33,6 +33,10 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 # EAS POWERHINT VARIANT
 EAS_POWERHINT_VARIANT := sdm660
 
+# Gapps
+USE_GAPPS := true
+TARGET_GAPPS_ARCH := arm64
+
 # HW crypto
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.cryptfshw@1.0-service-qti.qsee
