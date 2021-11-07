@@ -25,10 +25,6 @@
 # Device Path
 DEVICE_PATH := device/xiaomi/wayne-common
 
-# APEX
-ENABLE_APEX := false
-
-
 # Audio
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/audio/audio_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info_intcodec.xml \
