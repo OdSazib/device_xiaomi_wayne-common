@@ -38,7 +38,7 @@
 #ifdef QCAMERA_HAL1_SUPPORT
 #include "hardware/camera.h"
 #include "HAL/QCamera2HWI.h"
-#include "QCameraMuxer.h"
+#include "HAL/QCameraMuxer.h"
 #endif
 
 #include "hardware/camera3.h"
