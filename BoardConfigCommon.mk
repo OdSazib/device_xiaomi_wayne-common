@@ -12,6 +12,8 @@ WAYNE_PATH := device/xiaomi/wayne-common
 
 # Camera
 BOARD_QTI_CAMERA_32BIT_ONLY := true
+TARGET_USES_QTI_CAMERA_DEVICE := true
+USE_DEVICE_SPECIFIC_CAMERA := true
 
 # Crypto
 TARGET_HW_DISK_ENCRYPTION := true
