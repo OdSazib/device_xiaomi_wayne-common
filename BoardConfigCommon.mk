@@ -29,6 +29,9 @@ DEVICE_MANIFEST_FILE += $(WAYNE_COMMON_PATH)/configs/vintf/manifest.xml
 TARGET_KERNEL_CONFIG := vendor/wayne_defconfig
 TARGET_KERNEL_SOURCE := kernel/msm-4.19
 
+# Selinux
+BOARD_VENDOR_SEPOLICY_DIRS += $(WAYNE_COMMON_PATH)/sepolicy/vendor
+
 # Vendor Security patch level
 VENDOR_SECURITY_PATCH := 2020-08-05
 
