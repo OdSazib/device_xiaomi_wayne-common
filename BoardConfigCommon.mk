@@ -10,6 +10,9 @@ include device/xiaomi/sdm660-common/BoardConfigCommon.mk
 
 WAYNE_PATH := device/xiaomi/wayne-common
 
+# Build Rules
+BUILD_BROKEN_USES_BUILD_COPY_HEADERS := true
+
 # Camera
 BOARD_QTI_CAMERA_32BIT_ONLY := true
 TARGET_USES_QTI_CAMERA_DEVICE := true
