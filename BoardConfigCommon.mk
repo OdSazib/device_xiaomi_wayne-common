@@ -33,6 +33,9 @@ DEVICE_MANIFEST_FILE += $(WAYNE_PATH)/manifest.xml
 # Kernel
 TARGET_KERNEL_CONFIG := wayne_defconfig
 
+# Selinux
+BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
+
 # Vendor Security patch level
 VENDOR_SECURITY_PATCH := 2020-08-05
 
