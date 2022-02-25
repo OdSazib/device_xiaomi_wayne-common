@@ -40,8 +40,7 @@ TARGET_SCREEN_WIDTH := 1080
 
 # Consumerir
 PRODUCT_PACKAGES += \
-    android.hardware.ir@1.0-impl \
-    android.hardware.ir@1.0-service
+    android.hardware.ir@1.0-service.xiaomi_sdm660
 
 # Dalvik
 $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
