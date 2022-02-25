@@ -97,8 +97,7 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Vibrator
 PRODUCT_PACKAGES += \
-    android.hardware.vibrator@1.0-impl \
-    android.hardware.vibrator@1.0-service
+    vendor.qti.hardware.vibrator.service
 
 # Inherit the proprietary vendor files
 $(call inherit-product, vendor/xiaomi/wayne-common/wayne-common-vendor.mk)
