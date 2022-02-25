@@ -519,9 +519,6 @@ vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc
 vendor/lib/hw/android.hardware.keymaster@3.0-impl-qti.so
 vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so
 
-# Sensors - from LA.UM.8.2.1.r1-05600-sdm660
-vendor/lib/sensors.ssc.so
-vendor/lib64/sensors.ssc.so
-
-# Wifi - from LA.UM.8.2.1.r1-05600-sdm660
-vendor/bin/cnss-daemon
+# Sensors - from S62Pro RKQ1.210406.002
+vendor/lib/sensors.ssc.so|7cbe5294892d5b7a514141f6a902f1d9f1b1ca6a
+vendor/lib64/sensors.ssc.so|6934f0fd9e5e74356d9f18af0cbaa28164e697f6
