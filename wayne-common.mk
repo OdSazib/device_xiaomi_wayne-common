@@ -55,8 +55,7 @@ PRODUCT_COPY_FILES += \
 
 # Consumerir
 PRODUCT_PACKAGES += \
-    android.hardware.ir@1.0-impl \
-    android.hardware.ir@1.0-service
+    android.hardware.ir@1.0-service.xiaomi_sdm660
 
 # Device identifier
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
