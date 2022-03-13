@@ -4,11 +4,5 @@
     "repository"    : "OdSazib/device_xiaomi_sdm660-common",
     "target_path"   : "device/xiaomi/sdm660-common",
     "branch"        : "12"
-  },
-  {
-    "remote"      : "github",
-    "repository"  : "makeaosp/hardware_qcom-caf_sdm660_camera",
-    "target_path" : "hardware/qcom-caf/sdm660/camera",
-    "branch"      : "12-sdm660"
   }
 ]
